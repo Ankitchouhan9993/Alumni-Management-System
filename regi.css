@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding: 0;
+  	font-family: Century Gothic;
+}
+body{
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    height: 100%;
+}
+form{ 
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  background-color: rgba(0,0,25,0.3);
+}
+
+#footer{
+  width: 100%;
+  position: absolute;
+  margin-bottom:1px;
+}
+#footer .container{
+  width:100%;
+  text-align: center;
+  background-color:black;
+  color: white;
+}
+header{
+	background-image: url("2.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.details{
+  width:fit-content;
+  padding: 10px;
+  border: 1px solid red;
+  margin: auto;
+  margin-top: 9px;
+  color: white;
+}
+.details h1 {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 18px;
+  color: #000000;
+}
+.t1{
+  color: red;
+  padding-left: 35%;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 30px;
+	margin-right: 20px;
+
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent ;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+	
+
+}
+.logo img{
+	 opacity: 0.7;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+	float: left;
+	width: 150px;
+	height: auto;
+	margin-left: 5px;
+
+}
+form p{
+  text-decoration: none;
+  color: white;
+}
+.title{
+	color: #fff;
+}
+.button{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+
+}
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+  
+
+} 
+form, .content {  
+  width: 30%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  color:white;
+  border-radius: 25px 25px 25px 25px;
+  box-shadow: inset 0 0 10px #000000;
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+  color:white;
+  background-color: transparent ;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #5F9EA0;
+  border: none;
+  border-radius: 5px;
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
